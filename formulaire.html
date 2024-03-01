@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>
+            formulaire
+        </title>
+    </head>
+    <body>
+        <form id="f" name="formulaire">
+            <label >login</label>
+            <input type=" text" id="login">
+            <label>password</label>
+            <input type="password">
+            <input type="submit" value="Valider">
+            <input type="reset"value="Annuler">
+        </form>
+        <h1 name="titre" id=" login" class="test">test </h1>
+        <script src="formulaire.js">
+            var login=document.form.getElementById('f').getElementById('login').value;
+            var resultat=document.getElementsByClassName('test');
+            var loginTest=document.querySelector('#login');
+            console.log(resultat);
+            alert(login);
+        </script>
+    </body>
+</html>
